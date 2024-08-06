@@ -1,0 +1,100 @@
+.App {
+    text-align: center
+}
+
+.Home_container__xE5Ug,
+.Home_createEmployee__RliB- {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.Home_createEmployee__RliB- {
+    width: 30%
+}
+
+.Home_adress__UDWuU,
+.Home_date_picker__NjHqK {
+    display: flex;
+    flex-direction: column
+}
+
+.Home_adress__UDWuU {
+    align-items: center
+}
+
+.Home_employeeListPage__VkHcq,
+.Home_inputName__Tj9Nz,
+.Home_submitForm__PaIvt {
+    margin: 15px
+}
+
+.animated-select-container {
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 200px
+}
+
+.animated-select-box {
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.arrow {
+    transition: transform .5s ease
+}
+
+
+
+.options-container,
+.search-bar {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 8px 16px #0003;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: none;
+    z-index: 1
+}
+
+
+
+.options-container.closed,
+.search-bar.closed {
+    max-height: 0;
+    opacity: 0
+}
+
+
+
+.options-dropdown.initialized .options-container.closed,
+.options-dropdown.initialized .search-bar.closed {
+    transition: max-height var(--fade-out-duration) ease, opacity var(--fade-out-duration) ease
+}
+
+.option {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    padding: 10px
+}
+
+
+
+.Header_logoHrNet__W\+uBw {
+    height: 146px;
+    width: 136px
+}
+
+@media (max-width:1024px) {
+    .Header_logoHrNet__W\+uBw {
+        height: 22%;
+        width: 20%
+    }
+}

@@ -58,7 +58,7 @@
     box-shadow: 0 8px 16px #0003;
     max-height: 0;
     opacity: 0;
-    overflow: hidden;
+    overflow: auto;
     pointer-events: none;
     transition: none;
     z-index: 1
